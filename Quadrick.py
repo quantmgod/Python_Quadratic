@@ -15,9 +15,9 @@ def main():
         x1 = (-1 * b + math.sqrt(d))/(2*a)
         x2 = (-1 * b - math.sqrt(d))/(2*a)
         if d == 0:
-            print ("This equation has one solutions: ", x1)
+            print ("This equation has one solutions for x: ", x1)
         elif d > 0:
-            print ("This equation has two solutions: ", x1, " and", x2)
+            print ("This equation has two solutions for x: ", x1, " and", x2)
     q = input("Do you want to solve another (Y=Yes/N=No)?: ")
 
     if ((q == "Y") | (q == "y")):
